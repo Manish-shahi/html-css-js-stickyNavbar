@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 0 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    transition: 1s ease-in-out;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+    
+
+
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+    transition: 1s ease-in-out;
+    
+}
